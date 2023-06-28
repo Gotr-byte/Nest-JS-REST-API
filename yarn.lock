@@ -775,6 +775,23 @@
     consola "^2.15.0"
     node-fetch "^2.6.1"
 
+"@prisma/client@4.17.0-integration-node-drivers-prisma-playground.2":
+  version "4.17.0-integration-node-drivers-prisma-playground.2"
+  resolved "https://registry.yarnpkg.com/@prisma/client/-/client-4.17.0-integration-node-drivers-prisma-playground.2.tgz#62eef188e59e0d8f17079c588f99da6948239d0f"
+  integrity sha512-Pk0yO+zZsVcfhbT9GZ7Nk+r9X56gSDR+dC7rOSKwzuWbwzUulAWnnFN0tEjONqrp0AkFesSs4UIGuBlvDZrfjg==
+  dependencies:
+    "@prisma/engines-version" "4.16.0-70.integration-tracing-runtime-js-b967cfe0b3471cb83685e28c9bbccd0a25180ce6"
+
+"@prisma/engines-version@4.16.0-70.integration-tracing-runtime-js-b967cfe0b3471cb83685e28c9bbccd0a25180ce6":
+  version "4.16.0-70.integration-tracing-runtime-js-b967cfe0b3471cb83685e28c9bbccd0a25180ce6"
+  resolved "https://registry.yarnpkg.com/@prisma/engines-version/-/engines-version-4.16.0-70.integration-tracing-runtime-js-b967cfe0b3471cb83685e28c9bbccd0a25180ce6.tgz#f2140f856004f2aa8e44c56ca7f5a5e4e9d3522a"
+  integrity sha512-Es58j1B0lhdbvWbHGoRf+dG5q4o7t/b4EwiInTIn24vuO2tLSPd4G2IVJqolzdUt214KiA3c4fZ9ltnGAn02hw==
+
+"@prisma/engines@4.17.0-integration-node-drivers-prisma-playground.2":
+  version "4.17.0-integration-node-drivers-prisma-playground.2"
+  resolved "https://registry.yarnpkg.com/@prisma/engines/-/engines-4.17.0-integration-node-drivers-prisma-playground.2.tgz#97f2ba9a6529a12fe3bcc02cd1519dfa0eaf34d3"
+  integrity sha512-bBEUhm/3xgan3wiBxLOIxOPqC1a6NGZ1+a/Q/v57h2y8/t84shBZWhlQ9NVaXxSrpkURKv2mk0sdhHVrLTu1pA==
+
 "@sinclair/typebox@^0.25.16":
   version "0.25.24"
   resolved "https://registry.yarnpkg.com/@sinclair/typebox/-/typebox-0.25.24.tgz#8c7688559979f7079aacaf31aa881c3aa410b718"
@@ -3835,6 +3852,13 @@ pretty-format@^29.0.0, pretty-format@^29.5.0:
     "@jest/schemas" "^29.4.3"
     ansi-styles "^5.0.0"
     react-is "^18.0.0"
+
+prisma@^4.17.0-integration-node-drivers-prisma-playground.2:
+  version "4.17.0-integration-node-drivers-prisma-playground.2"
+  resolved "https://registry.yarnpkg.com/prisma/-/prisma-4.17.0-integration-node-drivers-prisma-playground.2.tgz#279c2eaf36237af048983dc4a72abc3264566938"
+  integrity sha512-9p6q2pYQDBvQjkDi44Gt2QvCfg07GjbAlHF9Jac1PTIZFY6/bES9qQWkTR7JPkeDSHEX3A2AGL4Q20WKjHUrNQ==
+  dependencies:
+    "@prisma/engines" "4.17.0-integration-node-drivers-prisma-playground.2"
 
 process-nextick-args@~2.0.0:
   version "2.0.1"
